@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>백화점 키즈랜드 - Shinsegae & Lifestyle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        html { scroll-behavior: smooth; }
+        .hide-scrollbar::-webkit-scrollbar { display: none; }
+        .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-['Noto_Sans_KR']">
+
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 bg-white/90 backdrop-blur-md border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo -->
+                <a href="#" class="flex items-center gap-3">
+                    <div class="w-10 h-10 bg-rose-500 text-white rounded-xl flex items-center justify-center font-bold text-lg shadow-md shadow-rose-200">
+                        8·9
+                    </div>
+                    <div class="flex flex-col">
+                        <span class="text-xs text-slate-400 font-medium">Shinsegae & Lifestyle</span>
+                        <span class="text-base font-bold text-slate-800">백화점 키즈랜드</span>
+                    </div>
+                </a>
+
+                <!-- Nav Links -->
+                <nav class="hidden md:flex items-center space-x-6 text-sm font-medium">
+                    <a href="#shorts" class="text-slate-600 hover:text-rose-600 transition-colors">홍보 쇼츠</a>
+                    <a href="#cardnews" class="text-slate-600 hover:text-rose-600 transition-colors">카드뉴스</a>
+                    <a href="#zones" class="text-slate-600 hover:text-rose-600 transition-colors">공간 안내(8~9F)</a>
+                    <a href="#plan" class="text-slate-600 hover:text-rose-600 transition-colors">홍보 실행계획</a>
+                    <a href="#kpi" class="text-slate-600 hover:text-rose-600 transition-colors">목표 KPI</a>
+                </nav>
+
+                <!-- Header Action Button -->
+                <div>
+                    <a href="#cardnews" class="inline-flex items-center gap-2 bg-rose-500 hover:bg-rose-600 text-white px-4 py-2 rounded-full text-sm font-semibold transition-all shadow-sm shadow-rose-200">
+                        <i data-lucide="instagram" class="w-4 h-4"></i>
+                        <span>카드뉴스 보기</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Hero Section -->
+    <section class="relative py-20 bg-gradient-to-b from-rose-50/60 via-indigo-50/30 to-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-12 items-center">
+                
+                <div>
+                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 bg-rose-100 text-rose-700 text-xs font-semibold rounded-full mb-6">
+                        <span class="w-2 h-2 rounded-full bg-rose-500 animate-ping"></span>
+                        백화점 8~9F 패밀리 & 라이프스타일 존 GRAND OPEN
+                    </div>
+
+                    <h1 class="text-4xl sm:text-5xl font-extrabold text-slate-900 leading-tight mb-6">
+                        "엄마는 <span class="text-rose-500">쇼핑</span>을 즐기고,<br>
+                        아이는 <span class="text-indigo-600">공간</span>을 즐긴다!"
+                    </h1>
+
+                    <p class="text-slate-600 text-base sm:text-lg leading-relaxed mb-8">
+                        디즈니, 포켓몬, 티니핑, 타요 4대 IP 테마파크(8F)와 파노라마 뷰 카페 & 프리미엄 패밀리 푸드코트(9F)가 어우러지는 수직 연계형 리테일 CX 공간을 경험해보세요.
+                    </p>
+
+                    <!-- Hero Quick Link Buttons -->
+                    <div class="flex flex-wrap gap-4 mb-10">
+                        <a href="#shorts" class="inline-flex items-center gap-2 bg-rose-500 hover:bg-rose-600 text-white px-6 py-3.5 rounded-xl text-base font-bold transition-all shadow-lg shadow-rose-200">
+                            <i data-lucide="play-circle" class="w-5 h-5"></i>
+                            <span>쇼츠 영상 감상</span>
+                        </a>
+                        <a href="#cardnews" class="inline-flex items-center gap-2 bg-slate-900 hover:bg-slate-800 text-white px-6 py-3.5 rounded-xl text-base font-semibold transition-all">
+                            <i data-lucide="grid" class="w-5 h-5"></i>
+                            <span>인스타그램 카드뉴스</span>
+                        </a>
+                    </div>
+
+                    <div class="grid grid-cols-3 gap-4 pt-6 border-t border-slate-200">
+                        <div>
+                            <p class="text-xs text-slate-400 font-medium">핵심 타겟</p>
+                            <p class="text-base font-bold text-slate-800">3040 패밀리</p>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-400 font-medium">연계 유입 목표</p>
+                            <p class="text-base font-bold text-rose-500">40% 이상</p>
+                        </div>
+                        <div>
+                            <p class="text-xs text-slate-400 font-medium">대표 테마</p>
+                            <p class="text-base font-bold text-indigo-600">4대 글로벌 IP</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Feature Banner -->
+                <div class="relative">
+                    <div class="bg-white p-6 rounded-3xl shadow-xl border border-slate-100">
+                        <div class="flex items-center justify-between mb-4">
+                            <span class="text-xs font-bold text-rose-500 uppercase tracking-wider flex items-center gap-1.5">
+                                <i data-lucide="sparkles" class="w-4 h-4"></i> KEY CONCEPT
+                            </span>
+                            <span class="text-xs bg-rose-50 text-rose-600 font-bold px-3 py-1 rounded-full">OPEN 2026</span>
+                        </div>
+                        <div class="aspect-video bg-gradient-to-tr from-rose-500 via-indigo-600 to-amber-400 rounded-2xl flex items-center justify-center text-white p-6 text-center shadow-inner relative overflow-hidden">
+                            <div class="absolute inset-0 bg-black/10"></div>
+                            <div class="relative z-10">
+                                <span class="text-xs font-semibold tracking-widest opacity-90 uppercase">PREMIUM CX RETAIL</span>
+                                <h3 class="text-2xl font-bold mt-2 mb-4">쇼핑과 놀이가 어우러진<br><span class="text-amber-200">공존형 라이프스타일 랜드</span></h3>
+                                <div class="flex flex-wrap justify-center gap-2 text-xs font-semibold">
+                                    <span class="bg-white/20 backdrop-blur-md px-3 py-1 rounded-full">포켓몬</span>
+                                    <span class="bg-white/20 backdrop-blur-md px-3 py-1 rounded-full">티니핑</span>
+                                    <span class="bg-white/20 backdrop-blur-md px-3 py-1 rounded-full">디즈니</span>
+                                    <span class="bg-white/20 backdrop-blur-md px-3 py-1 rounded-full">타요</span>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="text-xs text-slate-500 text-center mt-4 font-medium">
+                            * 8층 테마파크 체험부터 9층 파노라마 뷰 카페까지 연결된 프리미엄 동선
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Shorts Video Section -->
+    <section id="shorts" class="py-20 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-14">
+                <div class="inline-flex items-center gap-2 text-xs font-semibold text-rose-400 bg-rose-950/60 px-3 py-1 rounded-full border border-rose-800/50 mb-3">
+                    <i data-lucide="clapperboard" class="w-3.5 h-3.5"></i> 15초 핵심 미리보기
+                </div>
+                <h2 class="text-3xl sm:text-4xl font-bold">백화점 키즈랜드 <span class="text-rose-400">홍보 쇼츠 (Reels)</span></h2>
+                <p class="text-slate-400 text-sm sm:text-base mt-3 leading-relaxed">
+                    엄마의 쇼핑 라이프와 아이의 신나는 체험이 공존하는 백화점 8-9F 공간을 숏폼 영상으로 만나보세요.
+                </p>
+            </div>
+
+            <div class="grid lg:grid-cols-2 gap-10 items-center max-w-4xl mx-auto bg-slate-800/80 p-6 sm:p-8 rounded-3xl border border-slate-700 shadow-2xl">
+                <!-- Video Container -->
+                <div class="relative aspect-[9/16] max-w-xs mx-auto w-full bg-slate-950 rounded-2xl overflow-hidden border border-slate-700 shadow-xl group">
+                    <video class="w-full h-full object-cover" autoplay loop muted playsinline src="Mother_and_son_exploring_mall_20260921173057.mp4"></video>
+                    <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-slate-950 via-slate-950/60 to-transparent p-5 text-xs">
+                        <div class="flex items-center gap-2 mb-2">
+                            <div class="w-7 h-7 bg-rose-500 rounded-full flex items-center justify-center font-bold text-white text-xs">8·9</div>
+                            <span class="font-bold text-white">@shinsegae_kidsland</span>
+                        </div>
+                        <p class="text-slate-200 leading-snug">엄마는 쇼핑, 아이는 체험! 백화점 8-9F 키즈랜드 그랜드 오픈 🎈✨</p>
+                    </div>
+                </div>
+
+                <!-- Shorts Highlights Info -->
+                <div class="flex flex-col justify-between space-y-6">
+                    <div>
+                        <span class="text-xs font-bold text-rose-400 tracking-wider uppercase flex items-center gap-1.5">
+                            <i data-lucide="sparkle" class="w-4 h-4"></i> SHORTS HIGHLIGHTS
+                        </span>
+                        <h3 class="text-2xl font-bold text-white mt-2 mb-3">쇼츠로 먼저 둘러보는 대표 공간</h3>
+                        <p class="text-slate-400 text-sm leading-relaxed">
+                            생생한 영상으로 전해지는 8층 IP 캐릭터 존과 9층 프리미엄 뷰 카페의 생생한 분위기를 확인해보세요.
+                        </p>
+                    </div>
+
+                    <div class="space-y-3">
+                        <div class="flex items-start gap-3 bg-slate-900/60 p-3.5 rounded-xl border border-slate-700/60">
+                            <div class="w-7 h-7 rounded-lg bg-rose-500/20 text-rose-400 flex items-center justify-center font-bold text-xs shrink-0">01</div>
+                            <div>
+                                <p class="text-sm font-bold text-white">4대 IP 캐릭터 테마파크 (8F)</p>
+                                <p class="text-xs text-slate-400">포켓몬, 티니핑, 디즈니, 타요 포토존 및 체험 공간</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3 bg-slate-900/60 p-3.5 rounded-xl border border-slate-700/60">
+                            <div class="w-7 h-7 rounded-lg bg-indigo-500/20 text-indigo-400 flex items-center justify-center font-bold text-xs shrink-0">02</div>
+                            <div>
+                                <p class="text-sm font-bold text-white">파노라마 뷰 카페 & 푸드코트 (9F)</p>
+                                <p class="text-xs text-slate-400">탁 트인 조망과 함께 즐기는 패밀리 프리미엄 F&B</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3 bg-slate-900/60 p-3.5 rounded-xl border border-slate-700/60">
+                            <div class="w-7 h-7 rounded-lg bg-emerald-500/20 text-emerald-400 flex items-center justify-center font-bold text-xs shrink-0">03</div>
+                            <div>
+                                <p class="text-sm font-bold text-white">원스톱 동선 체계</p>
+                                <p class="text-xs text-slate-400">쇼핑-놀이-식사가 하나의 라인으로 이어지는 스마트 동선</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instagram Card News Section -->
+    <section id="cardnews" class="py-20 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-14">
+                <div class="inline-flex items-center gap-2 text-xs font-semibold text-rose-600 bg-rose-100 px-3.5 py-1.5 rounded-full mb-3">
+                    <i data-lucide="layout" class="w-3.5 h-3.5"></i> INSTAGRAM CARD NEWS
+                </div>
+                <h2 class="text-3xl font-extrabold text-slate-900">공식 인스타그램 <span class="text-rose-500">카드뉴스</span></h2>
+                <p class="text-slate-600 text-sm sm:text-base mt-3 leading-relaxed">
+                    백화점 키즈랜드의 핵심 컨셉과 층별 특장점을 카드뉴스로 빠르게 살펴보세요.
+                </p>
+            </div>
+
+            <!-- Card News Grid -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                <!-- Card 1 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 hover:shadow-lg transition-all group flex flex-col justify-between">
+                    <div>
+                        <div class="p-4 border-b border-slate-100 flex items-center justify-between">
+                            <div class="flex items-center gap-2">
+                                <div class="w-6 h-6 bg-rose-500 text-white rounded-full flex items-center justify-center text-[10px] font-bold">89</div>
+                                <span class="text-xs font-bold text-slate-800">shinsegae_kids</span>
+                            </div>
+                            <span class="text-[10px] font-bold bg-rose-50 text-rose-600 px-2 py-0.5 rounded-full">CARD 01</span>
+                        </div>
+                        <div class="p-6 bg-gradient-to-br from-rose-500 to-rose-600 text-white min-h-[180px] flex flex-col justify-center">
+                            <span class="text-xs font-medium text-rose-100 mb-1">키즈랜드 CONCEPT</span>
+                            <h3 class="text-xl font-extrabold leading-snug">엄마의 쇼핑과<br>아이의 놀이가 만나는 곳</h3>
+                        </div>
+                        <div class="p-5">
+                            <p class="text-xs text-slate-600 leading-relaxed mb-4">
+                                기존의 단순 아동 매장에서 벗어나, 부모와 아이가 모두 만족할 수 있는 백화점 특화 CX 융합 공간으로 탈바꿈합니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="px-5 pb-5 pt-0">
+                        <span class="inline-flex items-center gap-1 text-xs font-bold text-rose-500">
+                            #키즈랜드 #쇼핑과놀이 <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 hover:shadow-lg transition-all group flex flex-col justify-between">
+                    <div>
+                        <div class="p-4 border-b border-slate-100 flex items-center justify-between">
+                            <div class="flex items-center gap-2">
+                                <div class="w-6 h-6 bg-indigo-600 text-white rounded-full flex items-center justify-center text-[10px] font-bold">8F</div>
+                                <span class="text-xs font-bold text-slate-800">shinsegae_kids</span>
+                            </div>
+                            <span class="text-[10px] font-bold bg-indigo-50 text-indigo-600 px-2 py-0.5 rounded-full">CARD 02</span>
+                        </div>
+                        <div class="p-6 bg-gradient-to-br from-indigo-600 to-indigo-800 text-white min-h-[180px] flex flex-col justify-center">
+                            <span class="text-xs font-medium text-indigo-200 mb-1">8F IP THEME PARK</span>
+                            <h3 class="text-xl font-extrabold leading-snug">4대 글로벌 IP<br>캐릭터 테마 존</h3>
+                        </div>
+                        <div class="p-5">
+                            <p class="text-xs text-slate-600 leading-relaxed mb-4">
+                                포켓몬, 티니핑, 디즈니, 타요 등 전 연령대 아이들이 좋아하는 최정상 브랜드 IP 체험공간이 상시 운영됩니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="px-5 pb-5 pt-0">
+                        <span class="inline-flex items-center gap-1 text-xs font-bold text-indigo-600">
+                            #IP테마파크 #4대캐릭터 <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 hover:shadow-lg transition-all group flex flex-col justify-between">
+                    <div>
+                        <div class="p-4 border-b border-slate-100 flex items-center justify-between">
+                            <div class="flex items-center gap-2">
+                                <div class="w-6 h-6 bg-amber-500 text-white rounded-full flex items-center justify-center text-[10px] font-bold">9F</div>
+                                <span class="text-xs font-bold text-slate-800">shinsegae_kids</span>
+                            </div>
+                            <span class="text-[10px] font-bold bg-amber-50 text-amber-700 px-2 py-0.5 rounded-full">CARD 03</span>
+                        </div>
+                        <div class="p-6 bg-gradient-to-br from-amber-500 to-orange-600 text-white min-h-[180px] flex flex-col justify-center">
+                            <span class="text-xs font-medium text-amber-100 mb-1">9F PANORAMA VIEW</span>
+                            <h3 class="text-xl font-extrabold leading-snug">파노라마 뷰 카페 &<br>패밀리 푸드</h3>
+                        </div>
+                        <div class="p-5">
+                            <p class="text-xs text-slate-600 leading-relaxed mb-4">
+                                시원한 도심 뷰와 함께 여유로운 휴식을 즐기는 프리미엄 카페와 가족 단위 친화형 식음 전문 구역입니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="px-5 pb-5 pt-0">
+                        <span class="inline-flex items-center gap-1 text-xs font-bold text-amber-600">
+                            #뷰카페 #패밀리푸드 <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="bg-white rounded-2xl overflow-hidden shadow-sm border border-slate-200 hover:shadow-lg transition-all group flex flex-col justify-between">
+                    <div>
+                        <div class="p-4 border-b border-slate-100 flex items-center justify-between">
+                            <div class="flex items-center gap-2">
+                                <div class="w-6 h-6 bg-emerald-600 text-white rounded-full flex items-center justify-center text-[10px] font-bold">CX</div>
+                                <span class="text-xs font-bold text-slate-800">shinsegae_kids</span>
+                            </div>
+                            <span class="text-[10px] font-bold bg-emerald-50 text-emerald-700 px-2 py-0.5 rounded-full">CARD 04</span>
+                        </div>
+                        <div class="p-6 bg-gradient-to-br from-emerald-600 to-teal-700 text-white min-h-[180px] flex flex-col justify-center">
+                            <span class="text-xs font-medium text-emerald-100 mb-1">SYNERGY EFFECT</span>
+                            <h3 class="text-xl font-extrabold leading-snug">체류 시간 증대와<br>수직 연계 시너지</h3>
+                        </div>
+                        <div class="p-5">
+                            <p class="text-xs text-slate-600 leading-relaxed mb-4">
+                                8층 체험 후 9층 식음/휴식으로 자연스럽게 이어지는 수직 이동 구조로 체류 시간과 만족도를 극대화합니다.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="px-5 pb-5 pt-0">
+                        <span class="inline-flex items-center gap-1 text-xs font-bold text-emerald-600">
+                            #수직연계 #체류시간증대 <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Space Zones Section (8F & 9F) -->
+    <section id="zones" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <div class="inline-flex items-center gap-2 text-xs font-semibold text-indigo-600 bg-indigo-50 px-3.5 py-1.5 rounded-full mb-3">
+                    <i data-lucide="map-pin" class="w-3.5 h-3.5"></i> SPATIAL GUIDE
+                </div>
+                <h2 class="text-3xl font-extrabold text-slate-900">8F & 9F <span class="text-indigo-600">공간 구성 안내</span></h2>
+                <p class="text-slate-600 text-sm sm:text-base mt-3 leading-relaxed">
+                    아이들의 꿈과 어른들의 휴식이 어우러진 차별화된 층별 하이라이트입니다.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- 8F Zone Card -->
+                <div class="bg-gradient-to-br from-slate-900 to-indigo-950 text-white p-8 rounded-3xl relative overflow-hidden shadow-xl border border-slate-800">
+                    <div class="absolute -right-10 -bottom-10 w-48 h-48 bg-indigo-500/10 rounded-full blur-3xl"></div>
+                    <div class="flex items-center justify-between mb-6">
+                        <span class="text-3xl font-black text-rose-400">8F</span>
+                        <span class="bg-indigo-500/20 text-indigo-300 text-xs font-bold px-3 py-1 rounded-full border border-indigo-400/30">KIDS & IP THEME</span>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">IP 캐릭터 테마파크 & 키즈 존</h3>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-6">
+                        4대 메가 브랜드 IP를 중심으로 펼쳐지는 프리미엄 캐릭터 포토존과 어린이 전용 체험형 놀이 공간입니다.
+                    </p>
+                    <div class="grid grid-cols-2 gap-3 text-xs font-medium">
+                        <div class="bg-white/10 backdrop-blur-md p-3 rounded-xl border border-white/10">✨ 포켓몬 팝업 스토어</div>
+                        <div class="bg-white/10 backdrop-blur-md p-3 rounded-xl border border-white/10">👑 티니핑 매직월드</div>
+                        <div class="bg-white/10 backdrop-blur-md p-3 rounded-xl border border-white/10">🏰 디즈니 어드벤처</div>
+                        <div class="bg-white/10 backdrop-blur-md p-3 rounded-xl border border-white/10">🚌 타요 플레이파크</div>
+                    </div>
+                </div>
+
+                <!-- 9F Zone Card -->
+                <div class="bg-gradient-to-br from-slate-900 to-slate-800 text-white p-8 rounded-3xl relative overflow-hidden shadow-xl border border-slate-800">
+                    <div class="absolute -right-10 -bottom-10 w-48 h-48 bg-rose-500/10 rounded-full blur-3xl"></div>
+                    <div class="flex items-center justify-between mb-6">
+                        <span class="text-3xl font-black text-amber-400">9F</span>
+                        <span class="bg-amber-500/20 text-amber-300 text-xs font-bold px-3 py-1 rounded-full border border-amber-400/30">PANORAMA & F&B</span>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3">파노라마 뷰 카페 & 프리미엄 푸드</h3>
+                    <p class="text-slate-300 text-sm leading-relaxed mb-6">
+                        탁 트인 시티뷰를 감상하며 편안한 식사와 커피 타임을 경험하는 패밀리 라이프스타일 힐링 존입니다.
+                    </p>
+                    <div class="grid grid-cols-2 gap-3 text-xs font-medium">
+                        <div class="bg-white/10 backdrop-blur-md p-3 rounded-xl border border-white/10">☕ 파노라마 라운지 카페</div>
+                        <div class="bg-white/10 backdrop-blur-md p-3 rounded-xl border border-white/10">🥗 패밀리 델리 푸드코트</div>
+                        <div class="bg-white/10 backdrop-blur-md p-3 rounded-xl border border-white/10">🧸 키즈 리프레시 라운지</div>
+                        <div class="bg-white/10 backdrop-blur-md p-3 rounded-xl border border-white/10">🌿 루프탑 가든 연계 동선</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Promotion Execution Plan Section -->
+    <section id="plan" class="py-20 bg-slate-50 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <div class="inline-flex items-center gap-2 text-xs font-semibold text-emerald-600 bg-emerald-50 px-3.5 py-1.5 rounded-full mb-3">
+                    <i data-lucide="calendar" class="w-3.5 h-3.5"></i> EXECUTION PLAN
+                </div>
+                <h2 class="text-3xl font-extrabold text-slate-900">단계별 <span class="text-emerald-600">홍보 실행계획</span></h2>
+                <p class="text-slate-600 text-sm sm:text-base mt-3 leading-relaxed">
+                    사전 붐업부터 오픈 이후 사후 활성화까지 연계된 마케팅 로드맵입니다.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Phase 1 -->
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm relative">
+                    <div class="w-8 h-8 bg-emerald-500 text-white rounded-lg flex items-center justify-center font-bold text-sm mb-4">1</div>
+                    <span class="text-xs font-bold text-emerald-600 uppercase">Phase 01 · 사전 붐업</span>
+                    <h3 class="text-lg font-bold text-slate-900 mt-1 mb-3">티저 홍보 & SNS 바이럴</h3>
+                    <ul class="text-xs text-slate-600 space-y-2 leading-relaxed">
+                        <li class="flex items-start gap-1.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500 shrink-0"></i> 인스타그램 릴스 & 쇼츠 영상 선공개</li>
+                        <li class="flex items-start gap-1.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500 shrink-0"></i> 맘카페 및 3040 커뮤니티 타겟 마케팅</li>
+                        <li class="flex items-start gap-1.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-500 shrink-0"></i> 사전 키 비주얼 포스터 및 카드뉴스 배포</li>
+                    </ul>
+                </div>
+
+                <!-- Phase 2 -->
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm relative">
+                    <div class="w-8 h-8 bg-rose-500 text-white rounded-lg flex items-center justify-center font-bold text-sm mb-4">2</div>
+                    <span class="text-xs font-bold text-rose-600 uppercase">Phase 02 · 그랜드 오픈</span>
+                    <h3 class="text-lg font-bold text-slate-900 mt-1 mb-3">체험형 프로모션 집행</h3>
+                    <ul class="text-xs text-slate-600 space-y-2 leading-relaxed">
+                        <li class="flex items-start gap-1.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-rose-500 shrink-0"></i> 8F IP 캐릭터 스탬프 투어 이벤트</li>
+                        <li class="flex items-start gap-1.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-rose-500 shrink-0"></i> 9F 파노라마 뷰카페 쿠폰 프로모션</li>
+                        <li class="flex items-start gap-1.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-rose-500 shrink-0"></i> 현장 인플루언서 초청 피드 인증 캠페인</li>
+                    </ul>
+                </div>
+
+                <!-- Phase 3 -->
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm relative">
+                    <div class="w-8 h-8 bg-indigo-500 text-white rounded-lg flex items-center justify-center font-bold text-sm mb-4">3</div>
+                    <span class="text-xs font-bold text-indigo-600 uppercase">Phase 03 · 사후 안착</span>
+                    <h3 class="text-lg font-bold text-slate-900 mt-1 mb-3">시즌별 로열티 강화</h3>
+                    <ul class="text-xs text-slate-600 space-y-2 leading-relaxed">
+                        <li class="flex items-start gap-1.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-indigo-500 shrink-0"></i> 분기별 한정판 캐릭터 굿즈 팝업</li>
+                        <li class="flex items-start gap-1.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-indigo-500 shrink-0"></i> 패밀리 멤버십 전용 혜택 프로그램</li>
+                        <li class="flex items-start gap-1.5"><i data-lucide="check-circle-2" class="w-4 h-4 text-indigo-500 shrink-0"></i> 주말 어린이 문화 클래스 연계 운영</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Target KPI Section -->
+    <section id="kpi" class="py-20 bg-slate-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-16">
+                <div class="inline-flex items-center gap-2 text-xs font-semibold text-rose-400 bg-rose-950/60 px-3.5 py-1.5 rounded-full border border-rose-800/50 mb-3">
+                    <i data-lucide="target" class="w-3.5 h-3.5"></i> TARGET METRICS
+                </div>
+                <h2 class="text-3xl font-extrabold text-white">프로젝트 <span class="text-rose-400">목표 KPI</span></h2>
+                <p class="text-slate-400 text-sm sm:text-base mt-3 leading-relaxed">
+                    공간 리뉴얼 및 홍보 캠페인을 통해 달성하고자 하는 정량적 정성적 핵심 성과 지표입니다.
+                </p>
+            </div>
+
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="bg-slate-800/80 p-6 rounded-2xl border border-slate-700 text-center">
+                    <p class="text-xs text-slate-400 font-medium mb-2">연계 유입 비율</p>
+                    <p class="text-4xl font-black text-rose-400 mb-2">40%<span class="text-lg font-bold text-slate-300">+</span></p>
+                    <p class="text-xs text-slate-400">8층 체류 고객의 9층 F&B 자연 유입률</p>
+                </div>
+
+                <div class="bg-slate-800/80 p-6 rounded-2xl border border-slate-700 text-center">
+                    <p class="text-xs text-slate-400 font-medium mb-2">평균 체류 시간</p>
+                    <p class="text-4xl font-black text-indigo-400 mb-2">2.5<span class="text-lg font-bold text-slate-300">시간</span></p>
+                    <p class="text-xs text-slate-400">기존 대비 체류시간 150% 증대 목표</p>
+                </div>
+
+                <div class="bg-slate-800/80 p-6 rounded-2xl border border-slate-700 text-center">
+                    <p class="text-xs text-slate-400 font-medium mb-2">SNS 버즈량</p>
+                    <p class="text-4xl font-black text-amber-400 mb-2">10,000<span class="text-lg font-bold text-slate-300">건+</span></p>
+                    <p class="text-xs text-slate-400">해시태그 기반 오가닉 게시물 누적</p>
+                </div>
+
+                <div class="bg-slate-800/80 p-6 rounded-2xl border border-slate-700 text-center">
+                    <p class="text-xs text-slate-400 font-medium mb-2">패밀리 고객 만족도</p>
+                    <p class="text-4xl font-black text-emerald-400 mb-2">95<span class="text-lg font-bold text-slate-300">%</span></p>
+                    <p class="text-xs text-slate-400">3040 부모 고객 재방문 의향</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-400 py-12 text-sm border-t border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="flex items-center justify-center gap-2 mb-3">
+                <div class="w-6 h-6 bg-rose-500 text-white rounded-md flex items-center justify-center font-bold text-xs">8·9</div>
+                <span class="text-slate-200 font-bold">Shinsegae & Lifestyle 백화점 키즈랜드</span>
+            </div>
+            <p class="text-xs text-slate-500">© 2026 Shinsegae Kidsland Proposal. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
